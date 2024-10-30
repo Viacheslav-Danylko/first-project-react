@@ -1,6 +1,5 @@
-import Product from "./Product/Product";
+import Product from "./Products/Product";
 import Message from "./Message/Message";
-import { spanStyles } from "./Message/spanStyles";
 
 export default function App() {
   return (
