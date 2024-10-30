@@ -1,8 +1,10 @@
 import Product from "./Products/Product";
 import Message from "./Message/Message";
+import { Alert } from "./Alert/Alert";
 
 export default function App() {
   return (
+    
     <div>
       <h1>Best selling</h1>
 
@@ -24,6 +26,19 @@ export default function App() {
       <Message text="Куплю праску!" author="Вася" />
 
       <Message text="Продаю праску!" />
+
+      <Alert variant="info">
+        Would you like to browse our recommended products?
+      </Alert>
+      <Alert variant="error">
+        There was an error during your last transaction
+      </Alert>
+      <Alert variant="success">
+        Payment received, thank you for your purchase
+      </Alert>
+      <Alert variant="warning">
+        Please update your profile contact information
+      </Alert>
     </div>
   );
 }
