@@ -24,8 +24,8 @@ export default function App() {
       />
 
       <Message text="Куплю праску!" author="Вася" />
-
       <Message text="Продаю праску!" />
+      <Message text="Куплю посудомийку!" author="Ольга" />
 
       <Alert variant="info">
         Would you like to browse our recommended products?
