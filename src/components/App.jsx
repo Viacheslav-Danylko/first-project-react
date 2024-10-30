@@ -1,4 +1,5 @@
-import Product from "./product";
+import Product from "./Product/Product";
+import Message from "./Message/Message";
 
 export default function App() {
   return (
@@ -19,6 +20,10 @@ export default function App() {
         name="Coca Cola"
         price={1.99}
       />
+
+      <Message text="Куплю праску!" author="Вася" />
+
+      <Message text="Продаю праску!" />
     </div>
   );
 }
